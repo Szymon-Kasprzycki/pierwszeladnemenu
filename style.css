@@ -20,6 +20,7 @@ html {
 nav {
     background-color: #343A40;
     padding-left: 5%;
+    margin-bottom: 40px;
 }
 
 nav ul {
@@ -30,6 +31,7 @@ nav ul {
 
 nav ul li {
     float: left;
+    /*    width: 20%;*/
 }
 
 nav ul li a {
@@ -45,4 +47,14 @@ nav ul li a {
 
 nav ul li:nth-last-child(1) a {
     border-right: none;
+}
+
+nav ul li a i {
+    margin-right: 10px;
+    font-size: 24px;
+    vertical-align: -3px
+}
+
+nav ul li a:hover {
+    color: white;
 }
