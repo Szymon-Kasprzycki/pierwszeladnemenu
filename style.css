@@ -58,3 +58,7 @@ nav ul li a i {
 nav ul li a:hover {
     color: white;
 }
+
+p {
+    margin-top: 40px;
+}
